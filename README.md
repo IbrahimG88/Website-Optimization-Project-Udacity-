@@ -29,19 +29,19 @@ or choose it from fromthe index.html webpage displaying Cameron's portfolio.
 1. CSS is inlined in the pizza.html and the script is async-ed as in index.html.
 
 2. In sizeSwitcher() function:
-
-The slider value are modified to percent values of screen width.
+  
+  The slider value are modified to percent values of screen width.
 
 3. Function changePizaSizes():
 
-Used getElementsByClassName instead of querySelectorAll.
+  Used getElementsByClassName instead of querySelectorAll.
 
-Variables dx and newwidth are defined outside the for loop.
+  Variables dx and newwidth are defined outside the for loop.
 
 4. Function updatePositions():
 
-Through console.log test lines for the variables that were previously defined
+  Through console.log test lines for the variables that were previously defined
 
-inside the for loop, the var phase variable showed that it doesn't change upon scrolling, so it was moved 
+  inside the for loop, the var phase variable showed that it doesn't change upon scrolling, so it was moved 
 
-outside the for loop in the updatePositions() function.
+  outside the for loop in the updatePositions() function.
