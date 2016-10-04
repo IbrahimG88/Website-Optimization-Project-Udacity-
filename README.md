@@ -37,6 +37,14 @@ or choose it from fromthe index.html webpage displaying Cameron's portfolio.
   Used getElementsByClassName instead of querySelectorAll.
 
   Variables dx and newwidth are defined outside the for loop.
+  
+  Modified the  the randomPizzacontainer index from [i] to [0].
+  
+  The array length is stored in a local variable "len".
+  
+  The loop was modified also.
+  
+  pizzasDiv is declared outside the for loop to reduce the DOM load.
 
 4. Function updatePositions():
 
@@ -45,3 +53,15 @@ or choose it from fromthe index.html webpage displaying Cameron's portfolio.
   inside the for loop, the var phase variable showed that it doesn't change upon scrolling, so it was moved 
 
   outside the for loop in the updatePositions() function.
+ 
+ phase variable is declared inside the for loop, but the unchanged
+ 
+ top variable is declared outside the for loop.
+ 
+ 5. Function movingPizzas():
+ 
+ Background pizzas number is increased to 24 instead of 20
+ 
+ movingPizzas local variable and querySelector DOM call is
+
+ substituted by the faster document.getElementById(). 
