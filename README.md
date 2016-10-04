@@ -25,7 +25,7 @@ or choose it from fromthe index.html webpage displaying Cameron's portfolio.
 
 5. The image of pizzeria is compressed using graphics magick. The compressed image is 
 
- referenced: src="views/images/compressedimage.jpg".
+   referenced: src="views/images/compressedimage.jpg".
 
 
 ## Changes made in main.js and pizza.html to render the Pizzaria webpage in 60 FPS:
@@ -70,6 +70,6 @@ or choose it from fromthe index.html webpage displaying Cameron's portfolio.
 
  substituted by the faster document.getElementById().
  
-6.pizza.html:
+6. pizza.html:
 
  The main.js script is not loaded async (asynchronously). 
