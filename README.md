@@ -58,7 +58,7 @@ or choose it from fromthe index.html webpage displaying Cameron's portfolio.
  
  top variable is declared outside the for loop.
  
- 5. Function movingPizzas():
+5. Function movingPizzas():
  
  Background pizzas number is increased to 24 instead of 20
  
