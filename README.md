@@ -72,4 +72,21 @@ or choose it from fromthe index.html webpage displaying Cameron's portfolio.
  
 6. pizza.html:
 
- The main.js script is not loaded async (asynchronously). 
+ The main.js script is not loaded async (asynchronously).
+ 
+ 
+ Using: console.log(window.screen.height)
+ 
+ Screen height = 800 pixels
+
+ console.log(window.screen.width)
+
+ Screen width = 1280 pixels
+
+ Screen size = 1280 x 800
+ 
+ Number of rows = 800 / 100 (elem.style.height) = 7 rows
+ 
+ Number of columns = 1280 / 73.33 (elem.style.width) = 17.45 cols
+ 
+ Number of pizzas needed = 7 * 17.45 = 122 pizzas referrenced in the for loop
